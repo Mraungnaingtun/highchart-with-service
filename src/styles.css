@@ -1,1 +1,136 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.chart {
+    padding-top: 20px;
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background-color: #9C27B0;
+}
+
+.content {
+    color: white;
+}
+
+.sizedbox {
+    width: 10px;
+    height: 10px;
+}
+
+.colored-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.color-Y {
+    color: #FFDD00;
+}
+
+.color-D {
+    color: #007BFF;
+}
+
+.color-N {
+    color: #28A745;
+}
+
+.color-B {
+    color: #DC3545;
+}
+
+
+/* styles.css */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 12px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.menu a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+/* For Summary Table */
+.summary-table-container {
+    padding: 20px;
+}
+
+
+.summary-table {
+    width: 300px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.summary-table thead {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.summary-table th,
+.summary-table td {
+    padding: 12px;
+    text-align: center;
+}
+
+.summary-table th {
+    font-weight: bold;
+}
+
+.summary-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.summary-table tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.summary-table td {
+    color: #333333;
+}
+
+/* For Summary Table end */
