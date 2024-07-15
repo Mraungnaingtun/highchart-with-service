@@ -41,7 +41,10 @@ export class BarchartComponent {
 
           this.barChart = new Chart({
             chart: {
-              type: 'column'
+              type: 'column',
+              zooming: {
+                type: 'xy'
+              }
             },
             title: {
               text: this.chartData.title

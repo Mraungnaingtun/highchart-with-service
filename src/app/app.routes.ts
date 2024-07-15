@@ -3,6 +3,7 @@ import { BarchartComponent } from './components/barchart/barchart.component';
 import { LinechartComponent } from './components/linechart/linechart.component';
 import { PiechartComponent } from './components/piechart/piechart.component';
 import { SummaryComponent } from './components/summary/summary.component';
+import { CombinationChartComponent } from './components/combination-chart/combination-chart.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: '/summary', pathMatch: 'full' },
@@ -10,4 +11,5 @@ export const routes: Routes = [
     { path: 'linechart', component: LinechartComponent },
     { path: 'piechart', component: PiechartComponent },
     { path: 'summary', component: SummaryComponent },
+    { path: 'combination-chart', component: CombinationChartComponent },//CombinationChartComponent
 ];

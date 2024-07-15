@@ -43,6 +43,7 @@ export class ApiService {
 
     if (username && password) {
       const credentials = btoa(encodeURIComponent(username) + ':' + encodeURIComponent(password));
+      // console.log(credentials);
       const headers = new HttpHeaders({
         'Authorization': `Basic ${credentials}`
       });

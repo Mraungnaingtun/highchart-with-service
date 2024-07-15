@@ -33,7 +33,10 @@ export class LinechartComponent {
 
       this.lineChart = new Chart({
         chart: {
-          type: 'line'
+          type: 'line',
+          zooming: {
+            type: 'xy'
+          }
         },
         title: {
           text: this.chartData.title
